@@ -17,4 +17,9 @@ Translation involves converting text from one language to another while preservi
 Transliteration involves converting the characters of one script into another script without changing the underlying language's meaning. In , my assignment, I have transliterated Hindi script into Romanized script(Hinglish). For example, transliterating "नमस्ते" to "namaste" preserves the pronunciation but changes the script.
 
 # Dataset
-This assignment uses a dataset of Hindi-English word pairs for translation. I have used a Hindi-English dataset with 1 lakh words. But the model
+This assignment uses a dataset of Hindi-English word pairs for translation. I have used a Hindi-English dataset with 1 lakh words.
+# Conclusion:
+To achieve the desired output where Hindi and English words are mixed together(Hinglish), need to create a transliteration map that includes common English words transliterated into Hinglish. However, creating such a map manually for a large number of words can be impractical. One approach is to use pre-existing transliteration libraries or models that can transliterate English words into Hinglish. 
+Expanding the 'transliteration_map' to cover more common words for Hinglish transliteration, can add more key-value pairs to the dictionary.
+![image](https://github.com/Ohmdatazwld5/Hinglish-Translation-Assignment/assets/130119515/a6072415-7789-43e4-8af4-279c35fb5602)
+
